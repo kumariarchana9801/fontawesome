@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+		margin: 0;
+		padding: 0;
+	}
+	.navbar{
+		background-color: navy;
+		color: white;
+		display: flex;
+		justify-content: space-between;
+		padding: 8px;
+	}
+	.navleft{
+		display: flex;
+		width: 28%;
+		justify-content: space-between;
+	}
+	.fa-solid{
+		margin-right: 3px;
+		color: whitesmoke;
+	}
+	.dropdown{
+			color: white;
+			position: relative;
+	
+	}
+	.dropdownlist{
+			display: none;
+			position: absolute;
+			background-color: rgb(176, 167, 167);
+			right: 15px;
+			/* width: 120px; */
+			top: 20px;
+	}
+    .dropdown:hover .dropdownlist{
+			display: block;
+	}
+	.courseName{
+			padding: 10px;
+			border-bottom: 1px solid grey;
+	}
+    .about{
+	        width: 800px;
+			padding: 20px;
+			overflow-y: auto;
+			border: 2px solid black;
+	} 
+    .width{
+	        width: 100px;
+    }
